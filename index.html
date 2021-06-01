@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tinh lai suat</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Money</td>
+            <td>Time</td>
+            <td>Interest rate</td>
+            <td>Result</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="money"></td>
+            <td>
+                <select id="time_range">
+                    <option value="6">6 month</option>
+                    <option value="12">12 month</option>
+                    <option value="24">24 month</option>                   
+                </select>
+            </td>
+            <td><input type="text" id="rate"></td>
+            <td><button id="result" onclick="convert()">Result</button></td>
+        </tr>
+    </table>
+    <h3 id="result"></h3>
+    <h3 id="money_rate">Tiền lãi: </h3>
+    <script src="my.js"></script>
+</body>
+</html>
